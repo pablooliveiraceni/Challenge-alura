@@ -1,0 +1,15 @@
+:root {
+    /*COR*/
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundo: #F7F7F7;
+    --branco:#FFFFFF;
+    
+    /*FONTES*/
+    --font-ibm:  'IBM Plex Sans', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+}
