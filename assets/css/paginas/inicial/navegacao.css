@@ -1,15 +1,8 @@
-
-
 .navegacao {
     padding: 3rem;
-    display: inline-block;
 }
 
 .navegacao__item {
 
     margin-right: 3.75rem;
-}
-
-.cabecalho__imagem {
-    margin-left: 1.1rem;
 }
