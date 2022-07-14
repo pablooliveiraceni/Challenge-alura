@@ -1,0 +1,17 @@
+body {
+    background-image: url(../../img/Patas.svg),
+        url(../../img/Forma-invertida.svg), url(../../img/Forma\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: top right, left bottom 8.3125rem, top left;
+    background: var(-);
+    height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../../img/Patas.svg), url(../../img/Forma\ 2.svg),
+            url(../../img/Forma\ 1.svg);
+        background-size: 15.25rem, 6.875rem, 35rem;
+        background-position: top right, right center, top left;
+    }
+}

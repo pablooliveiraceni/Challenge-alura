@@ -1,7 +1,0 @@
-body{
-    background-image: url(../../../img/Patas.png), url(../../../img/Forma3.png), url(../../../img/Forma\ 1.png) ;
-    background-repeat: no-repeat;
-    background-position: top right, left bottom 8.3125rem, top left;
-    background: var(-);
-    height: 100vh;
-}

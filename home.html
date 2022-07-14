@@ -1,184 +1,343 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adopet | Home </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/paginas/home/bg-home.css">
-    <link rel="stylesheet" href="./assets/css/paginas/home/navegacao.css">
-    <link rel="stylesheet" href="./assets/css/paginas/home/conteudo.css">
-    <link rel="stylesheet" href="./assets/css/paginas/home/card.css">
-    <link rel="stylesheet" href="./assets/css/paginas/home/rodape.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/home/base.css" />
+        <link rel="stylesheet" href="./assets/css/home/bg-home.css" />
+        <link rel="stylesheet" href="./assets/css/home/navegacao.css" />
+        <link rel="stylesheet" href="./assets/css/home/conteudo.css" />
+        <link rel="stylesheet" href="./assets/css/home/card.css" />
+        <link rel="stylesheet" href="./assets/css/home/rodape.css" />
+        <title>Adopet | Home</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img
+                class="cabecalho__imagem-desktop"
+                src="./assets/img/Logo-desktop.svg"
+                alt="Logo-desktop"
+            />
+            <nav class="navegacao">
+                <a class="navegacao__item" href="index.html"
+                    ><img src="./assets/img/Casa.svg" alt="Página Home"
+                /></a>
+                <a class="navegacao__item" href="mensagem.html"
+                    ><img
+                        src="./assets/img/Mensagens.svg"
+                        alt="Página Mensagens"
+                /></a>
+            </nav>
 
-    <header class="cabecalho">
-        <nav class="navegacao">
-                <a class="navegacao__item" href="index.html"><img src="./assets/img/Casa (1).png" alt=""></a>
-                <a class="navegacao__item" href="mensagem.html"><img src="./assets/img/Mensagens.png" alt="Página Mensagens"></a>
-        </nav>
+            <img
+                class="cabecalho__imagem"
+                src="./assets/img/Usuário.svg"
+                alt="ícone Usuário"
+            />
+        </header>
 
-        <img class="cabecalho__imagem" src="./assets/img/Usuário.svg" alt="ícone Usuário">
-    </header>
+        <main class="conteudo">
+            <p class="conteudo__texto">
+                Olá! Veja os amigos disponíveis para adoção!
+            </p>
 
-    <main class="conteudo">
-        <p class="conteudo__texto">Olá! Veja os amigos disponíveis para adoção!</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem Dunga.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Dunda</p>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem Dunga.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Dunda</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    
-                    <p class="corpo__responsavel"> <img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagens Felícia.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Felícia</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagens Felícia.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Felícia</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem - sirius.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Sirius</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem - sirius.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Sirius</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem-Fiona.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Fiona</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem-Fiona.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Fiona</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem - Sid.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Sid</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem - Sid.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Sid</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem - Yoda.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Yoda</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem - Yoda.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Yoda</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem Dunga.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Dunda</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem Dunga.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Dunda</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagenm Lua.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Lua</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagenm Lua.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Lua</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem - Amora.png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Amora</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem - Amora.svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Amora</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <img class="card__imagem" src="./assets/img/Imagem - Amora (1).png" alt="Cachorro Dunga">
-            <div class="card__corpo">
-                <p class="corpo__nome">Zelda</p>
+            <div class="card">
+                <img
+                    class="card__imagem"
+                    src="./assets/img/Imagem - Amora (1).svg"
+                    alt="Cachorro Dunga"
+                />
+                <div class="card__corpo">
+                    <p class="corpo__nome">Zelda</p>
 
-                <p class="corpo__descricao">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+                    <p class="corpo__descricao">
+                        2 anos <br />
+                        Porte pequeno <br />
+                        Calmo e educado
+                    </p>
 
-                <div>
-                    <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
-                    <p class="corpo__responsavel"><img src="./assets/img/ícone mensagem.png" alt="ícone mensagem"> Falar com responsável</p>
+                    <div>
+                        <p class="corpo__cidade">Rio de Janeiro (RJ)</p>
+                        <p class="corpo__responsavel">
+                            <img
+                                src="./assets/img/ícone mensagem.svg"
+                                alt="ícone mensagem"
+                            />
+                            Falar com responsável
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
+
         <footer class="rodape">
-
-            <p class="rodape__texto">2022 - Desenvolvido por <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/">Pablo Ceni</a>.</p>
-
+            <p class="rodape__texto">
+                2022 - Desenvolvido por
+                <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/"
+                    >Pablo Ceni</a
+                >.
+            </p>
         </footer>
-
-
-    
-
-    </main>
-    
-</body>
+    </body>
 </html>

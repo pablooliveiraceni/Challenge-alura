@@ -1,0 +1,30 @@
+.navegacao {
+    padding: 3rem;
+}
+
+.navegacao__item {
+
+    margin-right: 3.75rem;
+}
+
+.cabecalho__imagem-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .navegacao {
+        padding: 4rem;
+    }
+
+    .cabecalho {
+        display: flex;
+    }
+
+    .cabecalho__imagem-desktop {
+        display: inline-block;
+        margin-left: 4rem;
+        
+    }
+    
+}

@@ -1,62 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adopet | Mensagem </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/paginas/mensagem/navegacao.css">
-    <link rel="stylesheet" href="./assets/css/paginas/mensagem/bg-mensagem.css">
-    <link rel="stylesheet" href="./assets/css/paginas/mensagem/conteudo.css">
-    <link rel="stylesheet" href="./assets/css/paginas/mensagem/formulario.css">
-    <link rel="stylesheet" href="./assets/css/paginas/mensagem/rodape.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <nav class="navegacao">
-            <a class="navegacao__item" href="./index.html"><img src="./assets/img/Casa (1).png" alt=""></a>
-            <a class="navegacao__item" href="./mensagem.html"><img src="./assets/img/Mensagens.png" alt="Página Mensagens"></a>
-        </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href=".//assets/css/mensagem/base.css" />
+        <link rel="stylesheet" href="assets/css/mensagem/bg-mensagem.css" />
+        <link rel="stylesheet" href="./assets/css/mensagem/navegacao.css" />
+        <link rel="stylesheet" href="assets/css/mensagem/conteudo.css" />
+        <link rel="stylesheet" href="assets/css/mensagem/formulario.css" />
+        <link rel="stylesheet" href="./assets/css/mensagem/rodape.css" />
+        <title>Adopet | Mensagem</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img
+                class="cabecalho__imagem-desktop"
+                src="./assets/img/Logo-desktop.svg"
+                alt="Logo-desktop"
+            />
+            <nav class="navegacao">
+                <a class="navegacao__item" href="./index.html"
+                    ><img src="./assets/img/Casa.svg" alt="Página Home"
+                /></a>
+                <a class="navegacao__item" href="./mensagem.html"
+                    ><img
+                        src="./assets/img/Mensagens.svg"
+                        alt="Página Mensagens"
+                /></a>
+            </nav>
 
-         <img class="cabecalho__imagem" src="./assets/img/Usuário.svg" alt="ícone Usuário">
-    </header>
+            <img
+                class="cabecalho__imagem"
+                src="./assets/img/Usuário.svg"
+                alt="ícone Usuário"
+            />
+        </header>
 
-    <main class="conteudo">
-        <p class="conteudo__texto">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+        <main class="conteudo">
+            <p class="conteudo__texto">
+                Envie uma mensagem para a pessoa ou instituição que está cuidado
+                do animal:
+            </p>
 
-        <form action="" class="formulario">
-            <label class="formulario__label" for="nome">Nome</label>
-            <input class="formulario__input" type="text" name="nome">
+            <form action="" class="formulario">
+                <label class="formulario__label" for="nome">Nome</label>
+                <input class="formulario__input" type="text" name="nome" />
 
-            <label class="formulario__label" for="telefone">telefone</label>
-            <input class="formulario__input" type="number" name="telefone">
+                <label class="formulario__label" for="telefone">telefone</label>
+                <input
+                    class="formulario__input"
+                    type="number"
+                    name="telefone"
+                />
 
-            <label class="formulario__label" for="nome-animal">Nome do animal</label>
-            <input class="formulario__input" type="text" name="nome-animal" id="">
+                <label class="formulario__label" for="nome-animal"
+                    >Nome do animal</label
+                >
+                <input
+                    class="formulario__input"
+                    type="text"
+                    name="nome-animal"
+                    id=""
+                />
 
-            <label class="formulario__label" for="mensagem">Mensagem</label>
-            <textarea class="formulario__text-area" name="mensagem" id="" cols="36" rows="10"></textarea>
+                <label class="formulario__label" for="mensagem">Mensagem</label>
+                <textarea
+                    class="formulario__text-area"
+                    name="mensagem"
+                    id=""
+                    cols="36"
+                    rows="10"
+                ></textarea>
 
-            <button class="formulario__botao">Enviar</button>
+                <button class="formulario__botao">Enviar</button>
+            </form>
+        </main>
 
-        </form>
-
-    </main>
-
-    <footer class="rodape">
-
-        <p class="rodape__texto">2022 - Desenvolvido por <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/">Pablo Ceni</a>.</p>
-
-    </footer>
-
-    <footer>
-
-    </footer>
-    
-</body>
+        <footer class="rodape">
+            <p class="rodape__texto">
+                2022 - Desenvolvido por
+                <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/"
+                    >Pablo Ceni</a
+                >.
+            </p>
+        </footer>
+    </body>
 </html>

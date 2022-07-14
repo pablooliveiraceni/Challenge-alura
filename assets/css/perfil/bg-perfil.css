@@ -1,0 +1,15 @@
+body {
+    background-image: url(../../img/Forma\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../../img/Forma\ 1.svg),
+            url(../../img/Forma\ 2.svg);
+        background-repeat: no-repeat;
+        background-position: top left, right center;
+        background-size: 35rem, 8.375rem;
+    }
+}

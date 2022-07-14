@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopet | Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/paginas/inicial/bg-home.css">
-    <link rel="stylesheet" href="./assets/css/paginas/inicial/navegacao.css">
-    <link rel="stylesheet" href="./assets/css/paginas/inicial/conteudo.css"> 
-    <link rel="stylesheet" href="./assets/css/paginas/inicial/rodape.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/inicial/base.css" />
+        <link rel="stylesheet" href="./assets/css/inicial/bg-inicial.css" />
+        <link rel="stylesheet" href="./assets/css/inicial/cabecalho.css" />
+        <link rel="stylesheet" href="./assets/css/inicial/conteudo.css" />
+        <link rel="stylesheet" href="./assets/css/inicial/rodape.css" />
+        <title>Adopet | Inicial</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img
+                class="cabecalho__imagem-desktop"
+                src="./assets/img/Logo-desktop.svg"
+                alt="Logo"
+            />
+            <nav class="navegacao">
+                <a href="index.html" class="navegacao__item"
+                    ><img src="./assets/img/Casa.svg" alt="Página home"
+                /></a>
+                <a href="mensagem.html" class="navegacao__item"
+                    ><img src="./assets/img/Mensagens.svg" alt="Mensagens"
+                /></a>
+            </nav>
+        </header>
 
-    <header class="cabecalho">
-        <nav class="navegacao">
-            <a href="index.html" class="navegacao__item"><img src="./assets/img/Casa (1).png" alt="Página home"></a>
-            <a href="mensagem.html" class="navegacao__item"><img src="./assets/img/Mensagens.png" alt="Mensagens"></a>
-        </nav>
-    </header>
+        <main class="conteudo">
+            <img
+                class="conteudo__imagem"
+                src="./assets/img/Logo.svg"
+                alt="Logo Adopet"
+            />
 
-    <main class="conteudo">
-        <img class="conteudo__imagem" src="./assets/img/Logo.png" alt="Logo Adopet">
+            <h1 class="conteudo__titulo">Boas-vindas</h1>
+            <p class="conteudo__texto">
+                Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a
+                gente!
+            </p>
 
-        <h1 class="conteudo__titulo">Boas-vindas</h1>
-        <p class="conteudo__texto">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+            <a class="conteudo__link" href="login.html">Já tenho conta</a>
+            <a class="conteudo__link" href="cadastro.html"
+                >Quero me cadastrar</a
+            >
+        </main>
 
-        <a class="conteudo__link" href="login.html">Já tenho conta</a>
-        <a class="conteudo__link" href="./cadastro.html">Quero me cadastrar</a>
-    </main>
-
-    <footer class="rodape">
-
-        <p class="rodape__texto">2022 - Desenvolvido por <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/">Pablo Ceni</a>.</p>
-
-    </footer>
-</body>
+        <footer class="rodape">
+            <p class="rodape__texto">
+                2022 - Desenvolvido por
+                <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/"
+                    >Pablo Ceni</a
+                >.
+            </p>
+        </footer>
+    </body>
 </html>

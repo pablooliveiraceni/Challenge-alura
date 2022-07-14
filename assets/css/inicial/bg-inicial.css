@@ -1,0 +1,17 @@
+body {
+    background: var(--azul);
+    height: 100vh;
+    background-image: url(../../img/Forma\ 1.svg), url(../../img/Forma\ 2.svg), url(../../img/Ilustração\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: left top, right center, bottom 5rem center;
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background-size: 35rem, 8.375rem, 21.125rem ;
+
+        background-position: left top, right center, bottom 4.5rem center;
+    }
+    
+}

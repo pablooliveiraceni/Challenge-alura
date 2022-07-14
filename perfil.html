@@ -1,72 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adopet | Perfil</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/paginas/perfil/bg-perfil.css">
-    <link rel="stylesheet" href="./assets/css/paginas/perfil/navegacao.css">
-    <link rel="stylesheet" href="./assets/css/paginas/perfil/conteudo.css">
-    <link rel="stylesheet" href="./assets/css/paginas/perfil/formulario.css">
-    <link rel="stylesheet" href="./assets/css/paginas/perfil/rodape.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/" />
+        <link rel="stylesheet" href="./assets/css/perfil/base.css" />
+        <link rel="stylesheet" href="./assets/css/perfil/bg-perfil.css" />
+        <link rel="stylesheet" href="./assets/css/perfil/navegacao.css" />
+        <link rel="stylesheet" href="./assets/css/perfil/conteudo.css" />
+        <link rel="stylesheet" href="./assets/css/perfil/formulario.css" />
+        <link rel="stylesheet" href="./assets/css/perfil/rodape.css" />
+        <title>Adopet | Perfil</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img
+                class="cabecalho__imagem-desktop"
+                src="./assets/img/Logo-desktop.svg"
+                alt="Logo-desktop"
+            />
 
-</head>
-<body>
+            <nav class="navegacao">
+                <a class="navegacao__item" href="./index.html"
+                    ><img src="./assets/img/Casa.svg" alt=""
+                /></a>
+                <a class="navegacao__item" href="./mensagem.html"
+                    ><img
+                        src="./assets/img/Mensagens.svg"
+                        alt="Página Mensagens"
+                /></a>
+            </nav>
 
-    <header class="cabecalho">
-        <nav class="navegacao">
-            <a class="navegacao__item" href="./index.html"><img src="./assets/img/Casa (1).png" alt=""></a>
-            <a class="navegacao__item" href="./mensagem.html"><img src="./assets/img/Mensagens.png" alt="Página Mensagens"></a>
-        </nav>
+            <img
+                class="cabecalho__imagem"
+                src="./assets/img/Usuário (1).svg"
+                alt="ícone Usuário"
+            />
+        </header>
 
-         <img class="cabecalho__imagem" src="./assets/img/Usuário.png" alt="ícone Usuário">
-    </header>
+        <main class="conteudo">
+            <p class="conteudo__texto">
+                Esse é o perfil que aparece para responsáveis ou ONGs que
+                recebem sua mensagem.
+            </p>
 
-    <main class="conteudo">
+            <form action="" class="formulario">
+                <p class="formulario__texto">Perfil</p>
 
-        <p class="conteudo__texto">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+                <label class="formulario__label" for="">Foto</label>
+                <div class="formulario__item">
+                    <img
+                        class="formulario__imagem"
+                        src="./assets/img/Ellipse 2.svg"
+                        alt="Foto de perfil"
+                    />
+                    <a class="formulario__link" href=""
+                        >Clique na foto para editar</a
+                    >
+                </div>
 
-        <form action="" class="formulario">
+                <label class="formulario__label" for="nome">Nome</label>
+                <input class="formulario__input" type="text" name="nome" />
 
-            <p class="formulario__texto">Perfil</p>
+                <label class="formulario__label" for="telefone">telefone</label>
+                <input
+                    class="formulario__input"
+                    type="number"
+                    name="telefone"
+                />
 
-            <label class="formulario__label" for="">Foto</label>
-            <div class="formulario__item">
-                <img class="formulario__imagem" src="./assets/img/Ellipse 2.png" alt="Foto de perfil">
-                <a class="formulario__link" href="">Clique na foto para editar</a>
-            </div>
-            
+                <label class="formulario__label" for="cidade">Cidade</label>
+                <input
+                    class="formulario__input"
+                    type="text"
+                    name="cidade"
+                    id=""
+                />
 
+                <label class="formulario__label" for="mensagem">Sobre</label>
+                <textarea
+                    class="formulario__text-area"
+                    name="mensagem"
+                    id=""
+                    cols="36"
+                    rows="10"
+                ></textarea>
 
-
-            <label class="formulario__label" for="nome">Nome</label>
-            <input class="formulario__input" type="text" name="nome">
-
-            <label class="formulario__label" for="telefone">telefone</label>
-            <input class="formulario__input" type="number" name="telefone">
-
-            <label class="formulario__label" for="cidade">Cidade</label>
-            <input class="formulario__input" type="text" name="cidade" id="">
-
-            <label class="formulario__label" for="mensagem">Sobre</label>
-            <textarea class="formulario__text-area" name="mensagem" id="" cols="36" rows="10"></textarea>
-
-            <button class="formulario__botao">Enviar</button>
-
-        </form>
-    </main>
-
-    <footer class="rodape">
-
-        <p class="rodape__texto">2022 - Desenvolvido por <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/">Pablo Ceni</a>.</p>
-
-    </footer>
-
-    
-</body>
+                <button class="formulario__botao">Enviar</button>
+            </form>
+        </main>
+        <footer class="rodape">
+            <p class="rodape__texto">
+                2022 - Desenvolvido por
+                <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/"
+                    >Pablo Ceni</a
+                >.
+            </p>
+        </footer>
+    </body>
 </html>

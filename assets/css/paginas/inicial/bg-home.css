@@ -1,7 +1,0 @@
-body {
-    background: var(--azul);
-    height: 100vh;
-    background-image: url(../../../img/Forma\ 1.png), url(../../../img/Forma\ 2.png), url(../../../img/Ilustração\ 1.png);
-    background-repeat: no-repeat;
-    background-position: left top, right center, bottom 5rem center;
-}

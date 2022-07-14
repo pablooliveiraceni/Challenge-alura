@@ -1,0 +1,24 @@
+.conteudo {
+    text-align: center;
+    flex-grow: 1;
+    padding: 1rem;
+    font-family: var(--font-poppins);
+}
+
+.conteudo__texto {
+    padding: 1.7rem 5.1875rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--azul);
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo__texto {
+        max-width: 620px;
+        margin-top: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+    }
+}

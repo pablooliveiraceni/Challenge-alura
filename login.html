@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adopet | Login </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/paginas/login/bg-login.css">
-    <link rel="stylesheet" href="./assets/css/paginas/login/navegacao.css">
-    <link rel="stylesheet" href="./assets/css/paginas/login/conteudo.css">
-    <link rel="stylesheet" href="./assets/css/paginas/login/formulario.css">
-    <link rel="stylesheet" href="./assets/css/paginas/login/rodape.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <nav class="navegacao">
-            <a href="index.html" class="navegacao__item"><img src="./assets/img/Casa (1).png" alt="Página home"></a>
-            <a href="mensagem.html" class="navegacao__item"><img src="./assets/img/Mensagens.png" alt="Mensagens"></a>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/login/base.css" />
+        <link rel="stylesheet" href="./assets/css/login/bg-login.css" />
+        <link rel="stylesheet" href="./assets/css/login/navegacao.css" />
+        <link rel="stylesheet" href="./assets/css/login/conteudo.css" />
+        <link rel="stylesheet" href="./assets/css/login/formulario.css" />
+        <link rel="stylesheet" href="./assets/css/login/rodape.css" />
 
-    <main class="conteudo">
-        <img class="conteudo__imagem" src="./assets/img/Logo-azul.png" alt="Logo azul">
-        <p class="conteudo__texto">Já tem conta? Faça seu login:</p>
+        <title>Adopet | Login</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img
+                class="cabecalho__imagem-desktop"
+                src="./assets/img/Logo-desktop.svg"
+                alt="Logo-desktop"
+            />
+            <nav class="navegacao">
+                <a href="index.html" class="navegacao__item"
+                    ><img src="./assets/img/Casa.svg" alt="Página home"
+                /></a>
+                <a href="mensagem.html" class="navegacao__item"
+                    ><img src="./assets/img/Mensagens.svg" alt="Mensagens"
+                /></a>
+            </nav>
+        </header>
 
-        <form action="" class="formulario">
-            <label class="formulario__label" for="email">Email</label>
-            <input class="formulario__input" type="text" placeholder="Escolha seu melhor email">
+        <main class="conteudo">
+            <img
+                class="conteudo__imagem"
+                src="./assets/img/Logo-azul.svg"
+                alt="Logo azul"
+            />
+            <p class="conteudo__texto">Já tem conta? Faça seu login:</p>
 
-            <label class="formulario__label" for="senha">Senha</label>
-            <input class="formulario__input" type="password" placeholder="Crie uma senha">
+            <form action="" class="formulario">
+                <label class="formulario__label" for="email">Email</label>
+                <input
+                    class="formulario__input"
+                    type="text"
+                    placeholder="Escolha seu melhor email"
+                />
 
-            <a class="formulario__link" href="">Esqueci minha senha</a>
+                <label class="formulario__label" for="senha">Senha</label>
+                <input
+                    class="formulario__input input--largura"
+                    type="password"
+                    placeholder="Crie uma senha"
+                />
 
-            <button class="formulario__botao">Entrar</button>
-        </form>
-    </main>
+                <a class="formulario__link" href="">Esqueci minha senha</a>
 
-    <footer class="rodape">
+                <button class="formulario__botao">Entrar</button>
+            </form>
+        </main>
 
-        <p class="rodape__texto">2022 - Desenvolvido por <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/">Pablo Ceni</a>.</p>
-
-    </footer>
-
-</body>
+        <footer class="rodape">
+            <p class="rodape__texto">
+                2022 - Desenvolvido por
+                <a href="https://www.linkedin.com/in/pablo-ceni-85b7a019b/"
+                    >Pablo Ceni</a
+                >.
+            </p>
+        </footer>
+    </body>
 </html>
